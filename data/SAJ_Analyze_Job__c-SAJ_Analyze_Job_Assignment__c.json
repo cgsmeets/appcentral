@@ -1,0 +1,42 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "SAJ_Analyze_Job__c",
+                "referenceId": "SAJ_Analyze_Job__cRef1"
+            },
+            "Name": "JobDummy",
+            "Analyze_Job_Assignments__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "SAJ_Analyze_Job_Assignment__c",
+                            "referenceId": "SAJ_Analyze_Job_Assignment__cRef1"
+                        },
+                        "Name": "MyApp - JobDummy",
+                        "SAJ_Operation__c": "Replace"
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "SAJ_Analyze_Job__c",
+                "referenceId": "SAJ_Analyze_Job__cRef2"
+            },
+            "Name": "JobPrefix",
+            "Analyze_Job_Assignments__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "SAJ_Analyze_Job_Assignment__c",
+                            "referenceId": "SAJ_Analyze_Job_Assignment__cRef2"
+                        },
+                        "Name": "MyApp - JobPrefix",
+                        "SAJ_Operation__c": "Insert"
+                    }
+                ]
+            }
+        }
+    ]
+}
