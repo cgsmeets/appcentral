@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAJ_Clear_Fields_to_Decommission</fullName>
+    <active>true</active>
+    <description>No of Internal user usage and No of external user usage should be 0 before an App can be Decommissioned</description>
+    <errorConditionFormula>AND(ISCHANGED(SAJ_Status__c), ISPICKVAL(SAJ_Status__c, &apos;Decommissioned&apos;),  SAJ_No_of_Internal_User_Usage__c &lt;&gt; 0, SAJ_No_of_External_User_Usage__c &lt;&gt; 0)</errorConditionFormula>
+    <errorMessage>Internal and external users accessing the App should be 0 for the App to be decommissioned</errorMessage>
+</ValidationRule>

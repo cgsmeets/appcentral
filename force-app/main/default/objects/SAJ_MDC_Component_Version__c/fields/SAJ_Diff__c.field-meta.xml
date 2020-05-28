@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAJ_Diff__c</fullName>
+    <externalId>false</externalId>
+    <formula>(IF(SAJ_Active__c, 
+  IF(OR(ISNULL(SAJ_Master_MDC_Key_CRC__c),ISBLANK(SAJ_Master_MDC_Key_CRC__c)), 
+    false, 
+    IF( SAJ_MDC_Key_CRC__c =  SAJ_Master_MDC_Key_CRC__c, false, true)
+   ), 
+  false)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Diff</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

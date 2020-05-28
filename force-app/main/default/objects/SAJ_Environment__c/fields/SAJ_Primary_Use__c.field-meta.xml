@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAJ_Primary_Use__c</fullName>
+    <externalId>false</externalId>
+    <label>Primary Use</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>SAJ_Tier__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Development</fullName>
+                <default>false</default>
+                <label>Development</label>
+            </value>
+            <value>
+                <fullName>QA</fullName>
+                <default>false</default>
+                <label>QA</label>
+            </value>
+            <value>
+                <fullName>Staging</fullName>
+                <default>false</default>
+                <label>Staging</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>System Testing</fullName>
+                <default>false</default>
+                <label>System Testing</label>
+            </value>
+            <value>
+                <fullName>Systems Integration Testing</fullName>
+                <default>false</default>
+                <label>Systems Integration Testing</label>
+            </value>
+            <value>
+                <fullName>Data Migration Testing</fullName>
+                <default>false</default>
+                <label>Data Migration Testing</label>
+            </value>
+            <value>
+                <fullName>User Acceptance Testing</fullName>
+                <default>false</default>
+                <label>User Acceptance Testing</label>
+            </value>
+            <value>
+                <fullName>Load &amp; Performance Testing</fullName>
+                <default>false</default>
+                <label>Load &amp; Performance Testing</label>
+            </value>
+            <value>
+                <fullName>Regression Testing</fullName>
+                <default>false</default>
+                <label>Regression Testing</label>
+            </value>
+            <value>
+                <fullName>Proof of Concept</fullName>
+                <default>false</default>
+                <label>Proof of Concept</label>
+            </value>
+            <value>
+                <fullName>Pilot</fullName>
+                <default>false</default>
+                <label>Pilot</label>
+            </value>
+            <value>
+                <fullName>Continuous Integration</fullName>
+                <default>false</default>
+                <label>Continuous Integration</label>
+            </value>
+            <value>
+                <fullName>Citizen Dev Creche</fullName>
+                <default>false</default>
+                <label>Citizen Dev Creche</label>
+            </value>
+            <value>
+                <fullName>Metadata Copy</fullName>
+                <default>false</default>
+                <label>Metadata Copy</label>
+            </value>
+            <value>
+                <fullName>Pre-Release</fullName>
+                <default>false</default>
+                <label>Pre-Release</label>
+            </value>
+            <value>
+                <fullName>Production</fullName>
+                <default>false</default>
+                <label>Production</label>
+            </value>
+            <value>
+                <fullName>Pre-Production</fullName>
+                <default>false</default>
+                <label>Pre-Production</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Project</controllingFieldValue>
+            <valueName>Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project</controllingFieldValue>
+            <controllingFieldValue>Common</controllingFieldValue>
+            <valueName>QA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project</controllingFieldValue>
+            <valueName>Staging</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project</controllingFieldValue>
+            <controllingFieldValue>Common</controllingFieldValue>
+            <valueName>Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project</controllingFieldValue>
+            <valueName>System Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project</controllingFieldValue>
+            <valueName>Systems Integration Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project</controllingFieldValue>
+            <valueName>Data Migration Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project</controllingFieldValue>
+            <valueName>User Acceptance Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project</controllingFieldValue>
+            <valueName>Regression Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project</controllingFieldValue>
+            <valueName>Proof of Concept</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project</controllingFieldValue>
+            <valueName>Pilot</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project</controllingFieldValue>
+            <controllingFieldValue>Common</controllingFieldValue>
+            <valueName>Pre-Release</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Common</controllingFieldValue>
+            <valueName>Load &amp; Performance Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Common</controllingFieldValue>
+            <valueName>Continuous Integration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Common</controllingFieldValue>
+            <valueName>Citizen Dev Creche</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Common</controllingFieldValue>
+            <valueName>Metadata Copy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Common</controllingFieldValue>
+            <valueName>Pre-Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production</controllingFieldValue>
+            <valueName>Production</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

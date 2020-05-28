@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAJ_Metadata</fullName>
+    <active>true</active>
+    <description>Metadata Release Components</description>
+    <label>Metadata</label>
+    <picklistValues>
+        <picklist>SAJ_Status__c</picklist>
+        <values>
+            <fullName>Created</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deleted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Updated</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SAJ_Type__c</picklist>
+        <values>
+            <fullName>Metadata</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Post</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAJ_Sub_Field_Type__c</fullName>
+    <description>Type of field based upon the __c parsing</description>
+    <externalId>false</externalId>
+    <formula>IF( ISPICKVAL(SAJ_Object_Type__c, &apos;CustomField&apos;)  ,  IF(  CONTAINS(SAJ_Object_Name__c, &apos;__c&apos;)  , &apos;CustomField&apos;, &apos;StandardField&apos;) , &apos;-&apos;)</formula>
+    <label>Sub Field Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

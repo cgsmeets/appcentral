@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAJ_Launched_App_to_be_Decomissioned</fullName>
+    <active>true</active>
+    <description>Launched App cannot be set to No-Go, it must be Decommissioned</description>
+    <errorConditionFormula>AND(ISPICKVAL(PRIORVALUE(SAJ_Status__c),&apos;Launched&apos;), ISCHANGED(SAJ_Status__c),ISPICKVAL(SAJ_Status__c, &apos;No-go / Closed&apos;))</errorConditionFormula>
+    <errorMessage>Launched Application must be Decommissioned and cannot be No-go</errorMessage>
+</ValidationRule>

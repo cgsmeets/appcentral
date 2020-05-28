@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAJ_Completed_Design_Challenge__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check when the project has gone through the Design challenge successfully</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Has the project successfully completed design challenge</inlineHelpText>
+    <label>Completed Design Challenge</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

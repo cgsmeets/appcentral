@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAJ_VAR_Apex_Test__c</fullName>
+    <externalId>false</externalId>
+    <formula>includes(SAJ_MDC_Component_Version__r.SAJ_Apex_Annotation__c,&quot;IsTest&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>VAR Apex Test</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

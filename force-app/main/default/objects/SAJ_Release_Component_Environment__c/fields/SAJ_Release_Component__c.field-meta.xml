@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAJ_Release_Component__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Lookup to the release component</description>
+    <externalId>false</externalId>
+    <label>Release Component</label>
+    <referenceTo>SAJ_Release_Component__c</referenceTo>
+    <relationshipLabel>Release Component Environments</relationshipLabel>
+    <relationshipName>Release_Component_Environments</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

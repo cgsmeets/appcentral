@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAJ_Business_Platform__c</fullName>
+    <description>Unilever business platforms</description>
+    <externalId>false</externalId>
+    <label>Business Platform</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>SAJ_Business_Platforms</valueSetName>
+    </valueSet>
+</CustomField>

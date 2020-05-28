@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAJ_Apex_Interface_Class__c</fullName>
+    <externalId>false</externalId>
+    <label>Apex Interface</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Database.Batchable</fullName>
+                <default>false</default>
+                <label>Database.Batchable</label>
+            </value>
+            <value>
+                <fullName>System.Schedulable</fullName>
+                <default>false</default>
+                <label>System.Schedulable</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

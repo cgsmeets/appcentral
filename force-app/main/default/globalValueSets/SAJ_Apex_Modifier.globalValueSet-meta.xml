@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>abstract</fullName>
+        <default>false</default>
+        <label>abstract</label>
+    </customValue>
+    <customValue>
+        <fullName>final</fullName>
+        <default>false</default>
+        <label>final</label>
+    </customValue>
+    <customValue>
+        <fullName>global</fullName>
+        <default>false</default>
+        <label>global</label>
+    </customValue>
+    <customValue>
+        <fullName>override</fullName>
+        <default>false</default>
+        <label>override</label>
+    </customValue>
+    <customValue>
+        <fullName>private</fullName>
+        <default>false</default>
+        <label>private</label>
+    </customValue>
+    <customValue>
+        <fullName>protected</fullName>
+        <default>false</default>
+        <label>protected</label>
+    </customValue>
+    <customValue>
+        <fullName>public</fullName>
+        <default>false</default>
+        <label>public</label>
+    </customValue>
+    <customValue>
+        <fullName>static</fullName>
+        <default>false</default>
+        <label>static</label>
+    </customValue>
+    <customValue>
+        <fullName>testMethod</fullName>
+        <default>false</default>
+        <label>testMethod</label>
+    </customValue>
+    <customValue>
+        <fullName>transient</fullName>
+        <default>false</default>
+        <label>transient</label>
+    </customValue>
+    <customValue>
+        <fullName>virtual</fullName>
+        <default>false</default>
+        <label>virtual</label>
+    </customValue>
+    <customValue>
+        <fullName>webService</fullName>
+        <default>false</default>
+        <label>webService</label>
+    </customValue>
+    <customValue>
+        <fullName>with sharing</fullName>
+        <default>false</default>
+        <label>with sharing</label>
+    </customValue>
+    <customValue>
+        <fullName>without sharing</fullName>
+        <default>false</default>
+        <label>without sharing</label>
+    </customValue>
+    <masterLabel>Apex Modifier</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

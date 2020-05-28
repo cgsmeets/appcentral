@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAJ_Remedy_Managed_by_Group__c</fullName>
+    <description>The remedy queue name of the incident management team</description>
+    <externalId>false</externalId>
+    <label>Remedy Managed by Group</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>IT-GL-SF Accenture L2</fullName>
+                <default>false</default>
+                <label>IT-GL-SF Accenture L2</label>
+            </value>
+            <value>
+                <fullName>Accenture : IT-GL-SF Accenture L3</fullName>
+                <default>false</default>
+                <label>Accenture : IT-GL-SF Accenture L3</label>
+            </value>
+            <value>
+                <fullName>CapGemini: IT-GL-SF Cap Gemini</fullName>
+                <default>false</default>
+                <label>CapGemini: IT-GL-SF Cap Gemini</label>
+            </value>
+            <value>
+                <fullName>Carelines: IT-GL-Carelines CapGemini</fullName>
+                <default>false</default>
+                <label>Carelines: IT-GL-Carelines CapGemini</label>
+            </value>
+            <value>
+                <fullName>Cognizant : IT-GL-SF Cognizant</fullName>
+                <default>false</default>
+                <label>Cognizant : IT-GL-SF Cognizant</label>
+            </value>
+            <value>
+                <fullName>IT-FRONTIER-ACN-DMS Reports</fullName>
+                <default>false</default>
+                <label>IT-FRONTIER-ACN-DMS Reports</label>
+            </value>
+            <value>
+                <fullName>Mindtree : IT-GL-SF Mindtree</fullName>
+                <default>false</default>
+                <label>Mindtree : IT-GL-SF Mindtree</label>
+            </value>
+            <value>
+                <fullName>ServOwn-GL-Consumer&amp;Market</fullName>
+                <default>false</default>
+                <label>ServOwn-GL-Consumer&amp;Market</label>
+            </value>
+            <value>
+                <fullName>--Other--</fullName>
+                <default>false</default>
+                <label>--Other--</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

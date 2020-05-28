@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>--None--</fullName>
+        <default>false</default>
+        <label>--None--</label>
+    </customValue>
+    <customValue>
+        <fullName>Accenture</fullName>
+        <default>false</default>
+        <label>Accenture</label>
+    </customValue>
+    <customValue>
+        <fullName>CapGemini</fullName>
+        <default>false</default>
+        <label>CapGemini</label>
+    </customValue>
+    <customValue>
+        <fullName>Cognizant</fullName>
+        <default>false</default>
+        <label>Cognizant</label>
+    </customValue>
+    <customValue>
+        <fullName>EY</fullName>
+        <default>false</default>
+        <label>EY</label>
+    </customValue>
+    <customValue>
+        <fullName>HCL</fullName>
+        <default>false</default>
+        <label>HCL</label>
+    </customValue>
+    <customValue>
+        <fullName>IBM</fullName>
+        <default>false</default>
+        <label>IBM</label>
+    </customValue>
+    <customValue>
+        <fullName>MindTree</fullName>
+        <default>false</default>
+        <label>MindTree</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce Services</fullName>
+        <default>false</default>
+        <label>Salesforce Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Third</fullName>
+        <default>false</default>
+        <label>Third</label>
+    </customValue>
+    <customValue>
+        <fullName>Tquila</fullName>
+        <default>false</default>
+        <label>Tquila</label>
+    </customValue>
+    <customValue>
+        <fullName>Unilever Internal</fullName>
+        <default>false</default>
+        <label>Unilever Internal</label>
+    </customValue>
+    <description>Prime delivery partner for the technical solution</description>
+    <masterLabel>SAJ Delivery Partner</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

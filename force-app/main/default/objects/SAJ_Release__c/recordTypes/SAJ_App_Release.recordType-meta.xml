@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAJ_App_Release</fullName>
+    <active>true</active>
+    <description>Functional Release Record (Per project)</description>
+    <label>App Release</label>
+    <picklistValues>
+        <picklist>Delivery_Partner__c</picklist>
+        <values>
+            <fullName>--None--</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accenture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CapGemini</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cognizant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HCL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IBM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MindTree</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Third</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tquila</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unilever Internal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SAJ_Deployment_Status__c</picklist>
+        <values>
+            <fullName>Deployed to CQA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deployed to PreProd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deployed to Prod</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Validation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PreProd Preparation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prod Preparation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Validation OK</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SAJ_Environment_Path__c</picklist>
+        <values>
+            <fullName>CQA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PreProd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sandbox</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Validation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SAJ_Sonar_Status__c</picklist>
+        <values>
+            <fullName>In-Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not-Scanned</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Scanned Green</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scanned Red</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SAJ_Status__c</picklist>
+        <values>
+            <fullName>Building</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deployed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deploying</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Failed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fixing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integration Testing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Post Step</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre Step</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Preprod Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Preprod Reviewing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ready for PreProd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ready for Release</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Release Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Release Reviewing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Release Testing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Released</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Releasing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Success</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Validated</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SAJ_Type__c</picklist>
+        <values>
+            <fullName>CI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Release</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sonar_Rules__c</picklist>
+        <values>
+            <fullName>No check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pass with exceptions</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Draft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

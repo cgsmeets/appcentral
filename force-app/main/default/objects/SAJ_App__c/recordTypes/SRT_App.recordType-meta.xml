@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SRT_App</fullName>
+    <active>true</active>
+    <label>SRT App</label>
+    <picklistValues>
+        <picklist>SAJ_Business_Platform__c</picklist>
+        <values>
+            <fullName>Audit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Ops</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CD SAP %26 O2C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CTT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Collaboration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer %26 Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer Services and Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foundation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frontier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Geo IT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Supply Chain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Human Resources</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information Analytics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research%2FDevelopment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Security</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supply Chain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sustainability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Workplace Services</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SAJ_Geographies_Impacted__c</picklist>
+        <values>
+            <fullName>Asia Pacific</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMEA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North America</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South America</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SAJ_Platform__c</picklist>
+        <values>
+            <fullName>Azure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heroku</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mulesoft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SharePoint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wave</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SAJ_Remedy_Managed_by_Group__c</picklist>
+        <values>
+            <fullName>--Other--</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accenture %3A IT-GL-SF Accenture L3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CapGemini%3A IT-GL-SF Cap Gemini</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carelines%3A IT-GL-Carelines CapGemini</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cognizant %3A IT-GL-SF Cognizant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT-FRONTIER-ACN-DMS Reports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT-GL-SF Accenture L2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mindtree %3A IT-GL-SF Mindtree</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ServOwn-GL-Consumer%26Market</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SAJ_Status__c</picklist>
+        <values>
+            <fullName>Decommissioned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Launched</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No-go %2F Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-Project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proof of Concept</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SAJ_Target_Production_Org__c</picklist>
+        <values>
+            <fullName>AMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEAA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>VDR_Roles__c</picklist>
+        <values>
+            <fullName>Architect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Senior Architect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Senior Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Team Leader</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>VDR_Skill_Set__c</picklist>
+        <values>
+            <fullName>Apex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approval Process</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Einstein Analytics Experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integration experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lightning Development  - MUST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reporting experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Cloud Experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales force Configuration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Cloud Experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visual force</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Workflows and Process Builders</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

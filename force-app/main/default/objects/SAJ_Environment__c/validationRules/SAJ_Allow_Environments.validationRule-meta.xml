@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAJ_Allow_Environments</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF($Permission.SAJ_ALM_Project_Release_Manager, FALSE, (IF($Permission.SAJ_ALM_CTT_Architect &amp;&amp; RecordType.DeveloperName=&apos;SAJ_Snapshot&apos;,FALSE,TRUE)))</errorConditionFormula>
+    <errorMessage>You are not authorized to create/update Environment records. Please contact System Administrator</errorMessage>
+</ValidationRule>

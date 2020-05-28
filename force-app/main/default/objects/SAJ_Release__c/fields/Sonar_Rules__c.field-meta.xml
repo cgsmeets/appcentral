@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sonar_Rules__c</fullName>
+    <description>This field marks if the SONAR check happened and if there are pending issues.</description>
+    <externalId>false</externalId>
+    <label>SONAR Rules</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No issues</fullName>
+                <default>false</default>
+                <label>No issues</label>
+            </value>
+            <value>
+                <fullName>Pass with exceptions</fullName>
+                <default>false</default>
+                <label>Pass with exceptions</label>
+            </value>
+            <value>
+                <fullName>No check</fullName>
+                <default>false</default>
+                <label>No check</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAJ_Design_Challenge_to_Development</fullName>
+    <active>true</active>
+    <description>When moving from Design Challenge to Development, Target Go Live date must be filled and Design Challenge Completed checkbox must be checked</description>
+    <errorConditionFormula>AND(
+NOT(OR(RecordType.Name = &apos;Feature&apos;,RecordType.Name = &apos;Release&apos;)),
+ISCHANGED(Status__c), ISPICKVAL(Status__c, &apos;Development&apos;), 
+OR(ISNULL(Target_Date__c),  NOT(SAJ_Completed_Design_Challenge__c))
+)</errorConditionFormula>
+    <errorMessage>When moving from Design Challenge to Development, Target Go Live date must be filled and Design Challenge must be completed.</errorMessage>
+</ValidationRule>

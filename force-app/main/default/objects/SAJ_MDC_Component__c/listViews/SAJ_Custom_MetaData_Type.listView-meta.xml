@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAJ_Custom_MetaData_Type</fullName>
+    <booleanFilter>1 OR 2</booleanFilter>
+    <columns>NAME</columns>
+    <columns>SAJ_MDC_Component_Version__c</columns>
+    <columns>SAJ_NamespacePrefix__c</columns>
+    <columns>SAJ_Object_Name__c</columns>
+    <columns>SAJ_Object_Type__c</columns>
+    <columns>SAJ_Parent_MDC_Component__c</columns>
+    <columns>SAJ_Source_Org__c</columns>
+    <columns>SAJ_State__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SAJ_Object_Name__c</field>
+        <operation>contains</operation>
+        <value>__mdt</value>
+    </filters>
+    <filters>
+        <field>SAJ_Object_Name__c</field>
+        <operation>contains</operation>
+        <value>__x</value>
+    </filters>
+    <label>Custom MetaData Type</label>
+</ListView>

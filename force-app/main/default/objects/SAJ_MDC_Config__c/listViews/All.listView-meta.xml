@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>SAJ_Active__c</columns>
+    <columns>SAJ_Object_Name__c</columns>
+    <columns>SAJ_Org_Name__c</columns>
+    <columns>SAJ_Org_Type__c</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>SAJ_Username__c</columns>
+    <columns>SAJ_Status__c</columns>
+    <columns>SAJ_App_Client_Id__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>SAJ_MDC_Config__c.Object</value>
+    </filters>
+    <filters>
+        <field>SAJ_Object_Name__c</field>
+        <operation>contains</operation>
+        <value>Knowledge</value>
+    </filters>
+    <label>All Objects</label>
+</ListView>

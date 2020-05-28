@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAJ_Moving_Status_to_In_Progress</fullName>
+    <active>true</active>
+    <description>When an App is set to In Progress, it must have a child Release record.</description>
+    <errorConditionFormula>AND(ISCHANGED(SAJ_Status__c), ISPICKVAL(SAJ_Status__c, &apos;In Progress&apos;), OR(SAJ_No_of_Releases__c = 0, ISBLANK(SAJ_Project_Dev_Prefix__c)))</errorConditionFormula>
+    <errorMessage>Please ensure that you have a release record and the Project Dev Prefix is set before moving the App to In Progress.</errorMessage>
+</ValidationRule>

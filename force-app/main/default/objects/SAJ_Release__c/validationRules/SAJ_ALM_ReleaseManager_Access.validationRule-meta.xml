@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAJ_ALM_ReleaseManager_Access</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(($Permission.SAJ_ALM_CTT_Architect),FALSE,IF(($Permission.SAJ_ALM_Project_Release_Manager &amp;&amp; RecordType.DeveloperName &lt;&gt; &apos;SAJ_App_Release&apos;),FALSE,IF(($Permission.SAJ_ALM_Project_Developer &amp;&amp; RecordType.DeveloperName = &apos;SAJ_Feature&apos;),FALSE,TRUE)))</errorConditionFormula>
+    <errorMessage>You are not authorized to create App Release/Build Records. Please contact System Administrator.</errorMessage>
+</ValidationRule>

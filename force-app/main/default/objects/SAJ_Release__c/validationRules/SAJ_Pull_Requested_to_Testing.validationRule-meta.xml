@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAJ_Pull_Requested_to_Testing</fullName>
+    <active>true</active>
+    <description>When moving status from Pull Requested to testing, SONAR Rules picklist value should not be blank.</description>
+    <errorConditionFormula>AND(
+NOT(OR(RecordType.Name = &apos;Feature&apos;,RecordType.Name = &apos;Release&apos;)),
+ISCHANGED(Status__c), ISPICKVAL(Status__c, &apos;Testing&apos;), ISPICKVAL(Sonar_Rules__c,&apos;&apos;)
+)</errorConditionFormula>
+    <errorMessage>When moving status to Testing, SONAR Rules value should be set.</errorMessage>
+</ValidationRule>

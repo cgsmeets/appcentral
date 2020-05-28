@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Onboarding_Step__c</fullName>
+    <description>Onboarding Steps</description>
+    <externalId>false</externalId>
+    <label>Onboarding Step</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Raise Clarity Project</fullName>
+                <default>false</default>
+                <label>Raise Clarity Project</label>
+            </value>
+            <value>
+                <fullName>Citicus Assessment</fullName>
+                <default>false</default>
+                <label>Citicus Assessment</label>
+            </value>
+            <value>
+                <fullName>Information Security Assessment</fullName>
+                <default>false</default>
+                <label>Information Security Assessment</label>
+            </value>
+            <value>
+                <fullName>Design Challenge</fullName>
+                <default>false</default>
+                <label>Design Challenge</label>
+            </value>
+            <value>
+                <fullName>Solution Design Document (attached?)</fullName>
+                <default>false</default>
+                <label>Solution Design Document (attached?)</label>
+            </value>
+            <value>
+                <fullName>Application Support Level 2 and Level 3</fullName>
+                <default>false</default>
+                <label>Application Support Level 2 and Level 3</label>
+            </value>
+            <value>
+                <fullName>Follow Change and Release</fullName>
+                <default>false</default>
+                <label>Follow Change and Release</label>
+            </value>
+            <value>
+                <fullName>SLA (attached?)</fullName>
+                <default>false</default>
+                <label>SLA (attached?)</label>
+            </value>
+            <value>
+                <fullName>Help file (attached?)</fullName>
+                <default>false</default>
+                <label>Help file (attached?)</label>
+            </value>
+            <value>
+                <fullName>Service Record</fullName>
+                <default>false</default>
+                <label>Service Record</label>
+            </value>
+            <value>
+                <fullName>Regression Test Pack</fullName>
+                <default>false</default>
+                <label>Regression Test Pack</label>
+            </value>
+            <value>
+                <fullName>Regression Testing</fullName>
+                <default>false</default>
+                <label>Regression Testing</label>
+            </value>
+            <value>
+                <fullName>Associate support Assignment Groups</fullName>
+                <default>false</default>
+                <label>Associate support Assignment Groups</label>
+            </value>
+            <value>
+                <fullName>Service Go Live request for change</fullName>
+                <default>false</default>
+                <label>Service Go Live request for change</label>
+            </value>
+            <value>
+                <fullName>Network Impact Assessment</fullName>
+                <default>false</default>
+                <label>Network Impact Assessment</label>
+            </value>
+            <value>
+                <fullName>Software Asset Management / License Impact</fullName>
+                <default>false</default>
+                <label>Software Asset Management / License Impact</label>
+            </value>
+            <value>
+                <fullName>Servie Request Offerings</fullName>
+                <default>false</default>
+                <label>Servie Request Offerings</label>
+            </value>
+            <value>
+                <fullName>Create Remedy Group Support</fullName>
+                <default>false</default>
+                <label>Create Remedy Group Support</label>
+            </value>
+            <value>
+                <fullName>Create Remedy Group Change Approval</fullName>
+                <default>false</default>
+                <label>Create Remedy Group Change Approval</label>
+            </value>
+            <value>
+                <fullName>Add to chatter group: Application Developments</fullName>
+                <default>false</default>
+                <label>Add to chatter group: Application Developments</label>
+            </value>
+            <value>
+                <fullName>Add to chatter group: DevOpts Tooling Forum</fullName>
+                <default>false</default>
+                <label>Add to chatter group: DevOpts Tooling Forum</label>
+            </value>
+            <value>
+                <fullName>Add to chatter group: Release Management</fullName>
+                <default>false</default>
+                <label>Add to chatter group: Release Management</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

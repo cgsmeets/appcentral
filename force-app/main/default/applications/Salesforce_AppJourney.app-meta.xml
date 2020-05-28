@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>SAJ_App__c</defaultLandingTab>
+    <description>To track Demand, Purpose, Releases, document for Applications on Salesforce Platform</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>AppJourney</label>
+    <tabs>standard-Chatter</tabs>
+    <tabs>SAJ_App__c</tabs>
+    <tabs>SAJ_Release__c</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>SAJ_Release_Environment__c</tabs>
+</CustomApplication>

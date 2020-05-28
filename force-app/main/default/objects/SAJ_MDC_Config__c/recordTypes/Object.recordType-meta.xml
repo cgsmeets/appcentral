@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Object</fullName>
+    <active>true</active>
+    <label>Object</label>
+    <picklistValues>
+        <picklist>SAJ_Object_Type__c</picklist>
+        <values>
+            <fullName>Custom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SAJ_Org_Type__c</picklist>
+        <values>
+            <fullName>Dev %2F Prod</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sandbox</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

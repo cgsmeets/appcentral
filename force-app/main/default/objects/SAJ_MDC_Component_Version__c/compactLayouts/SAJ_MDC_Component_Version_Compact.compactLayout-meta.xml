@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAJ_MDC_Component_Version_Compact</fullName>
+    <fields>Name</fields>
+    <fields>SAJ_MDC_Component__c</fields>
+    <fields>SAJ_Version__c</fields>
+    <fields>SAJ_Active__c</fields>
+    <fields>SAJ_Diff__c</fields>
+    <label>SAJ MDC Component Version Compact</label>
+</CompactLayout>

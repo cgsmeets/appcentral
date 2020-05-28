@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAJ_VAR_Batch_Apex__c</fullName>
+    <externalId>false</externalId>
+    <formula>INCLUDES( SAJ_MDC_Component_Version__r.SAJ_Apex_Interface_Class__c, &quot;Database.Batchable&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>VAR Batch Apex</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

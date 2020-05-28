@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPermission xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows Build &amp; Feature record to be created</description>
+    <label>SAJ_ALM_Project_Release_Manager</label>
+</CustomPermission>
