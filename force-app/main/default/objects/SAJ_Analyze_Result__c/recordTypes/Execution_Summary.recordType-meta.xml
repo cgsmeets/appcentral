@@ -3,4 +3,27 @@
     <fullName>Execution_Summary</fullName>
     <active>true</active>
     <label>Execution Summary</label>
+    <picklistValues>
+        <picklist>SAJ_Severity__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
 </RecordType>

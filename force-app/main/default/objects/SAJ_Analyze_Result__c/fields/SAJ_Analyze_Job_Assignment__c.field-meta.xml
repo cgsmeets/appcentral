@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>SAJ_Analyze_Job__c</fullName>
+    <fullName>SAJ_Analyze_Job_Assignment__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Analyze Job</label>
-    <referenceTo>SAJ_Analyze_Job__c</referenceTo>
-    <relationshipLabel>Analyze Job Assignments</relationshipLabel>
-    <relationshipName>Analyze_Job_Assignments</relationshipName>
+    <label>Analyze Job Assignment</label>
+    <referenceTo>SAJ_Analyze_Job_Assignment__c</referenceTo>
+    <relationshipLabel>Analyze Results</relationshipLabel>
+    <relationshipName>Analyze_Results</relationshipName>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Lookup</type>
