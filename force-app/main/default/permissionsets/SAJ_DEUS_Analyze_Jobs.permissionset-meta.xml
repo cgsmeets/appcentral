@@ -12,6 +12,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>SAJ_Analyze_Job_Assignment__c.SAJ_Environment__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>SAJ_Analyze_Job_Assignment__c.SAJ_Operation__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -42,6 +47,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>SAJ_Analyze_Result__c.SAJ_Parent__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SAJ_Analyze_Result__c.SAJ_Passed__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>SAJ_Analyze_Result__c.SAJ_Release_Component__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -53,6 +68,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>SAJ_Analyze_Result__c.SAJ_Report__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SAJ_Analyze_Result__c.SAJ_Severity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SAJ_Analyze_Result__c.SAJ_Short_Message__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -90,19 +115,19 @@
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <recordTypeVisibilities>
-        <recordType>SAJ_Analyze_Result__c.Environment</recordType>
+        <recordType>SAJ_Analyze_Result__c.Build_Summary</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <recordType>SAJ_Analyze_Result__c.Execution_Summary</recordType>
+        <recordType>SAJ_Analyze_Result__c.Job_Result_1</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <recordType>SAJ_Analyze_Result__c.Release</recordType>
+        <recordType>SAJ_Analyze_Result__c.Job_Result_2</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <recordType>SAJ_Analyze_Result__c.Release_Component</recordType>
+        <recordType>SAJ_Analyze_Result__c.Job_Summary</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabSettings>

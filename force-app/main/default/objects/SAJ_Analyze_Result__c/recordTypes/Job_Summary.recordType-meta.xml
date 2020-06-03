@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Release_Component</fullName>
+    <fullName>Job_Summary</fullName>
     <active>true</active>
-    <label>Release Component</label>
+    <label>Job Summary</label>
     <picklistValues>
         <picklist>SAJ_Severity__c</picklist>
         <values>
