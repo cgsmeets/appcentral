@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SAJ_Project_Dev_Prefix__c</fullName>
     <description>Prefix used in all code components for this app</description>
-    <encryptionScheme>None</encryptionScheme>
     <externalId>false</externalId>
     <label>Project Dev Prefix</label>
     <length>255</length>

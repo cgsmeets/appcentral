@@ -3,7 +3,6 @@
     <fullName>Start_Date__c</fullName>
     <defaultValue>TODAY()</defaultValue>
     <description>Start Date of the project</description>
-    <encryptionScheme>None</encryptionScheme>
     <externalId>false</externalId>
     <inlineHelpText>Date when Project status changes to IPIX Project.</inlineHelpText>
     <label>Start Date</label>

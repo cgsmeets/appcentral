@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Assumptions__c</fullName>
     <description>State any assumptions e.g. resource availability, dependency on other projects, standards, precedents</description>
-    <encryptionScheme>None</encryptionScheme>
     <externalId>false</externalId>
     <inlineHelpText>State any assumptions e.g. resource availability, dependency on other projects, standards, precedents</inlineHelpText>
     <label>Assumptions</label>

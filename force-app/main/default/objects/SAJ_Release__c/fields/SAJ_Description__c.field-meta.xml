@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SAJ_Description__c</fullName>
     <description>Attribute to store description of the release</description>
-    <encryptionScheme>None</encryptionScheme>
     <externalId>false</externalId>
     <label>Description</label>
     <required>false</required>

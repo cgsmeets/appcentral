@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Dependencies__c</fullName>
     <description>State any dependencies that are related to this project request. Include any related business activities coordinated with the completion of this request.</description>
-    <encryptionScheme>None</encryptionScheme>
     <externalId>false</externalId>
     <inlineHelpText>State any dependencies that are related to this project request. Include any related business activities coordinated with the completion of this request.</inlineHelpText>
     <label>Dependencies</label>

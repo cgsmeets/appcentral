@@ -156,7 +156,6 @@
     <externalSharingModel>ReadWrite</externalSharingModel>
     <label>Environment</label>
     <nameField>
-        <encryptionScheme>None</encryptionScheme>
         <label>Name</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>

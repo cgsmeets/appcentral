@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SAJ_Reference__c</fullName>
     <description>Reference URL of the release component</description>
-    <encryptionScheme>None</encryptionScheme>
     <externalId>false</externalId>
     <label>Reference</label>
     <required>false</required>

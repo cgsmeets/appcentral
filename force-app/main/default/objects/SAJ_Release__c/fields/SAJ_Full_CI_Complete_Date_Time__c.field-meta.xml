@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SAJ_Full_CI_Complete_Date_Time__c</fullName>
     <description>Datetime stamp of full CI completion.</description>
-    <encryptionScheme>None</encryptionScheme>
     <externalId>false</externalId>
     <label>Full CI Complete Date/Time</label>
     <required>false</required>

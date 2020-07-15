@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SAJ_Business_Outcomes__c</fullName>
     <description>Business Outcomes of the project</description>
-    <encryptionScheme>None</encryptionScheme>
     <externalId>false</externalId>
     <label>Business Outcomes</label>
     <length>131072</length>

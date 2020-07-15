@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SAJ_Jenkins_Build__c</fullName>
     <description>Attribute to store URL of Jenkins build for current deployment.</description>
-    <encryptionScheme>None</encryptionScheme>
     <externalId>false</externalId>
     <label>Jenkins Build</label>
     <required>false</required>

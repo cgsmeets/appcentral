@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SAJ_Component_Details__c</fullName>
     <description>Attribute to store the details of the component being deployed</description>
-    <encryptionScheme>None</encryptionScheme>
     <externalId>false</externalId>
     <label>Component Details</label>
     <length>255</length>

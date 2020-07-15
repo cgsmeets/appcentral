@@ -155,7 +155,6 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>App</label>
     <nameField>
-        <encryptionScheme>None</encryptionScheme>
         <label>App Name</label>
         <trackHistory>false</trackHistory>
         <type>Text</type>

@@ -132,6 +132,11 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
@@ -150,7 +155,6 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>MDC Component Version</label>
     <nameField>
-        <encryptionScheme>None</encryptionScheme>
         <label>MDC Component Version Name</label>
         <type>Text</type>
     </nameField>

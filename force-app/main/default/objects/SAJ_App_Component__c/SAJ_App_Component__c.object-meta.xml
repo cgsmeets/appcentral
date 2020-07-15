@@ -155,7 +155,6 @@
     <externalSharingModel>Read</externalSharingModel>
     <label>App Component</label>
     <nameField>
-        <encryptionScheme>None</encryptionScheme>
         <label>App Component Name</label>
         <type>Text</type>
     </nameField>

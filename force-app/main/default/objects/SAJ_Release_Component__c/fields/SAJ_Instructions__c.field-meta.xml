@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SAJ_Instructions__c</fullName>
     <description>Attribute to store instructions for Pre and Post release components</description>
-    <encryptionScheme>None</encryptionScheme>
     <externalId>false</externalId>
     <label>Instructions</label>
     <length>131072</length>

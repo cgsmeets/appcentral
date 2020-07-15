@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SAJ_Jenkins_Build_Log__c</fullName>
     <description>Attribute to store complete log of the Jenkins Build</description>
-    <encryptionScheme>None</encryptionScheme>
     <externalId>false</externalId>
     <label>Jenkins Build Log</label>
     <length>131072</length>

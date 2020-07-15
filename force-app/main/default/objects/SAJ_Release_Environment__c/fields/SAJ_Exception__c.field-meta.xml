@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SAJ_Exception__c</fullName>
     <description>Attribute to store any exceptions occurred during deployment.</description>
-    <encryptionScheme>None</encryptionScheme>
     <externalId>false</externalId>
     <label>Exception</label>
     <length>255</length>

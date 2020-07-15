@@ -156,7 +156,6 @@
     <externalSharingModel>Read</externalSharingModel>
     <label>Release Component Environment</label>
     <nameField>
-        <encryptionScheme>None</encryptionScheme>
         <label>Release Component Environment Name</label>
         <trackHistory>false</trackHistory>
         <type>Text</type>

@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SAJ_Integration_Key__c</fullName>
     <caseSensitive>true</caseSensitive>
-    <encryptionScheme>None</encryptionScheme>
     <externalId>true</externalId>
     <label>Integration Key</label>
     <length>200</length>

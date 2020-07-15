@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SAJ_Preprod_RFC__c</fullName>
     <description>Attribute to store the RFC for Preprod deployment.</description>
-    <encryptionScheme>None</encryptionScheme>
     <externalId>false</externalId>
     <label>Preprod RFC</label>
     <length>100</length>

@@ -3,7 +3,6 @@
     <fullName>SAJ_Allocation_start_date__c</fullName>
     <defaultValue>TODAY()</defaultValue>
     <description>Attribute to store the start date of allocation</description>
-    <encryptionScheme>None</encryptionScheme>
     <externalId>false</externalId>
     <label>Allocation Start Date</label>
     <required>false</required>

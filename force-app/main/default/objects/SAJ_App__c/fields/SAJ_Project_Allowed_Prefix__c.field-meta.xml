@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SAJ_Project_Allowed_Prefix__c</fullName>
     <description>Attribute to capture all the allowed project Prefixes</description>
-    <encryptionScheme>None</encryptionScheme>
     <externalId>false</externalId>
     <label>Project Allowed Prefix</label>
     <length>255</length>

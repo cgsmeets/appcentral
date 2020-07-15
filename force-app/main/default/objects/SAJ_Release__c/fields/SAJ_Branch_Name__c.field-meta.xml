@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SAJ_Branch_Name__c</fullName>
     <description>Attribute to store the name of the Release Branch to be deployed.</description>
-    <encryptionScheme>None</encryptionScheme>
     <externalId>false</externalId>
     <label>Branch Name</label>
     <length>100</length>
