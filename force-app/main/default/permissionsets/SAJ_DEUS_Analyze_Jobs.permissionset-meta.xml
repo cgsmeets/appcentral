@@ -17,6 +17,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>SAJ_Analyze_Job_Assignment__c.SAJ_Parameter_1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>SAJ_Analyze_Job_Assignment__c.SAJ_Operation__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -41,6 +46,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>SAJ_Analyze_Job__c.SAJ_Parameter_1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+        <fieldPermissions>
         <editable>true</editable>
         <field>SAJ_Analyze_Job__c.SAJ_Operation__c</field>
         <readable>true</readable>
